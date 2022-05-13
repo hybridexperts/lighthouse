@@ -1,0 +1,1 @@
+az deployment sub create --name lighthouse --location westeurope --template-file lighthouse_deploy.json --parameters lighthouse_deploy.parameters.json --verbose

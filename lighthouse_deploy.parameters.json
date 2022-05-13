@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "mspOfferName": {
+      "value": "Sebastian Hoppe Projekt GmbH - Azure remote hands"
+    },
+    "mspOfferDescription": {
+      "value": "Zugriff zur Verwaltung von Azure Resourcen im Rahmen des Angebotes 'Azure remote Hands'"
+    },
+    "managedByTenantId": {
+      "value": "800a991d-f7fc-4ad4-90d3-f81fa80a3b7c"
+    },
+    "authorizations": {
+      "value": [
+        {
+          "principalId": "e36b12c8-360f-4184-a9e7-514cfae1dc76",
+          "principalIdDisplayName": "SHP Tier 2 Support (VM Operators)",
+          "roleDefinitionId": "9980e02c-c2be-4d73-94e8-173b1dc7cf3c"
+        },
+        {
+          "principalId": "9d4459ac-d7f6-44c5-a091-04c9456d694d",
+          "principalIdDisplayName": "SHP Tier 2 Support (Architects)",
+          "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+        },
+        {
+          "principalId": "70584a0f-9d8c-4c4f-b16b-5612e4057acb",
+          "principalIdDisplayName": "SHP Tier 2 Support (Policy)",
+          "roleDefinitionId": "36243c78-bf99-498c-9df9-86d9f8d28608"
+        },
+        {
+          "principalId": "d3b2e012-ca57-4a7e-9ebf-2635af09457b",
+          "principalIdDisplayName": "SHP Tier 1 Support (Readers, Helpdesk)",
+          "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+        },
+        {
+          "principalId": "008c9922-d23c-4873-8483-6880987baf1b",
+          "principalIdDisplayName": "SHP Service Automation Account",
+          "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+        },
+        {
+          "principalId": "553155e8-df31-4ca9-8cb7-456985d1c666",
+          "principalIdDisplayName": "SHP Service MSP Operators",
+          "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46"
+        },
+        {
+          "principalId": "e7d90453-c3c6-475d-8858-f27415cb4c8f",
+          "principalIdDisplayName": "SHP Policy Automation Account",
+          "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+          "delegatedRoleDefinitionIds": [
+            "b24988ac-6180-42a0-ab88-20f7382dd24c",
+            "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
+          ]
+        }
+      ]
+    }
+  }
+}
